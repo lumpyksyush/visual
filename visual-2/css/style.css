@@ -1,4 +1,4 @@
-.btn {
+﻿.btn {
 	outline: none;
 	background-color: #fafafa;
 	color: #333;
@@ -94,6 +94,46 @@
 	border: 2px solid #000;
 	width: 60px;
 	vertical-align: middle;
+}
+
+.parent-sam {
+	height: 60px;
+	text-align: center;
+	width: 100%;
+}
+
+.child-sam {
+	float: left;
+	width: 15%;
+	height: 100%;
+	border: none;
+	text-align: center;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.child-sam:hover {
+	background-color: #ccc;
+}
+
+.dropdown-sam {
+	position: relative;
+	display: inline-block;
+	height: 100px;
+}
+
+.dropdown-list-sam {
+	display: none;
+	position: absolute;
+	min-width: 180px;
+	top: 35%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px 5px;
+}
+
+.dropdown-sam:hover .dropdown-list-sam {
+	display: block;
 }
 
 .btn-section {
