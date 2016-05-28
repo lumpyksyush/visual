@@ -1,0 +1,24 @@
+.header {
+	width: 100%;
+	background-color: $color--dark-black;
+	
+	&__container {
+		width: $size--container;
+		display: table;
+		margin: 0 auto;
+		padding: em(22px);
+		color: #fff;
+	}
+
+		&__logo {
+			display: table-cell; 
+			height: 50px; 
+			vertical-align: middle;
+		}
+
+		&__menu {
+			display: table-cell;
+			height: 50px;
+			vertical-align: middle;
+		}
+}

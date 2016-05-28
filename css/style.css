@@ -1,44 +1,54 @@
-.btn {
-	outline: none;
-	background-color: #fafafa;
-	color: #333;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	font-size: 14px;
-	padding: .6em .8em;
-	text-decoration: none;
-	font-family: Arial;
-	cursor: pointer;
-	display: inline-block;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  background-color: #000000; }
+  .header__container {
+    width: 1100px;
+    display: table;
+    margin: 0 auto;
+    padding: 1.375em;
+    color: #fff; }
+  .header__logo {
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle; }
+  .header__menu {
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle; }
+
+.logo {
+  width: 79px;
+  height: 27px;
+  display: block;
+  background-image: url("../img/logo.png"); }
+
+/*$width: 400px;
+
+@function increment ($size, $inc: 1px) {
+	@return $size + $inc;
 }
 
-.btn:active {
-	background-color: #e6e6e6;
-	color: #333;
-	border-color: #ccc;
+@mixin clearfix {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
 }
 
-.btn_state_danger {
-	background-color: #d9534f;
-	color: #fff;
-	border-color: #a63f3c;
+body {
+	width: increment(2px);
 }
 
-.btn_state_danger:active {
-	background-color: #bf423e;
-	color: #fff;
-	border-color: #326796;
-} 
-
-.btn_state_primary {
-	background-color: #428bca;
-	color: #fff;
-	border-color: #326796;
-}
-
-.btn_state_primary:active {
-	background-color: #3a79b0;
-	color: #fff;
-	border-color: #326796;
-} 
-
+.header {
+	width: 100%;
+	@include clearfix;
+}*/
